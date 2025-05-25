@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+a{
+    text-decoration: none;
+   
+}
+.footer a{
+  color: black;
+  
+}
+
+.nav-link{
+  color: black;
+}
+
+
+.footer-icon{
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+ 
+}
+
+.footer-icon a{
+  color: rgb(24, 23, 23);
+  
+}
+.footer-copy{
+  font-size: 0.9rem;
+
+}
+
+.footer{
+  padding-left: 5rem;
+  
+}
+
+.ticket-logo{
+  font-size: 1rem;
+}
+
+.forms{
+  padding: 2rem;
+ 
+ 
+}
+
+.signup{
+  padding: 2rem;
+  width: 30%;
+  height: auto;
+ 
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+
+.forms input{
+  margin-top: 1.5rem;
+}
