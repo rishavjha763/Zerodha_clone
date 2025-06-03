@@ -8,10 +8,12 @@ import GeneralContext from "./GeneralContext";
 import "./BuyActionWindow.css";
 
 const BuyActionWindow = ({ uid }) => {
+  
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
 
   const handleBuyClick = () => {
+        axios.post("http://localhost:3002/newOrder"),
     axios.post("https://zerodha-clone-1-1iv3.onrender.com", {
       name: uid,
       qty: stockQuantity,
